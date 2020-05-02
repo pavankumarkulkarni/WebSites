@@ -23,3 +23,17 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    UI experience of loading Gif for 2 seconds after clicking Calculate Button.
 *    Error message for various error data conditions which self disappear after 5 seconds.
 *    Result grid display only in case of succesful calculation.
+
+## Project 3: NumberGuesser - 
+### Technologies: 
+        Javascript, HTML, Skeleton.
+### Functionality:
+*    Random integer between 2 numbers is to be guessed in 3 attempts.
+*    Error messages for various user errors while guessing numbers.
+*    When number is valid within range, counter is set.
+*    If guessed correctly, displays success message along with number of attempts taken.
+*    If couldn;t guess correct number within 3 attempts, fail message is displayed.
+*    Game ends either in when won or lost. User is prompted to replay again with dynamic button. If clicked game is reset.
+
+
+
