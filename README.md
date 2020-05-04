@@ -47,4 +47,10 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    Remove All books functionality. Asks for reconfirmation.
 *    Persists in localStorage.
 
+## Project 4: Chuck Norris Jokes - 
+### Technologies: 
+        Javascript, HTML, Skeleton, AJAX.
+### Functionality:
+*    From external API, get chuck norris jokes and display on the screen
+*    AJAX is used to get number of jokes as specified by user on the UI screen,
 
