@@ -35,5 +35,16 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    If couldn;t guess correct number within 3 attempts, fail message is displayed.
 *    Game ends either in when won or lost. User is prompted to replay again with dynamic button. If clicked game is reset.
 
+## Project 4: Book List - 
+### Technologies: 
+        Javascript, HTML, BootStrap, ES6 Classes, OOPS.
+### Functionality:
+*    Add books by title, author and ISBN.
+*    ISBN unique identifier. Checks for duplicate ISBN entry.
+*    Warning, success messages displayed in color coded backgorund which auto dismiss in 3 seconds.
+*    Webtable displays lists of books addesd.
+*    Option to remove single books by clicking delete icon.
+*    Remove All books functionality. Asks for reconfirmation.
+*    Persists in localStorage.
 
 
