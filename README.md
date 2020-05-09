@@ -54,3 +54,11 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    From external API, get chuck norris jokes and display on the screen
 *    AJAX is used to get number of jokes as specified by user on the UI screen,
 
+## Project 5: GithubFinder - 
+### Technologies: 
+        Javascript, HTML, Bootstrapswatch, Bootstrap, AJAX, OAuth, GitHubAPI, Arrow Function, ES6 Class, Fetch.
+### Functionality:
+*    Get User profile details from github API.
+*    Display profile pic, website, member since, public repos, followers, following
+*    Also displays latest repos link to repo and other major stats.
+*    Uses OAuth for authorization and code uses ES6 classes and Fetch methods.
