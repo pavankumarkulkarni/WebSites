@@ -62,3 +62,15 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    Display profile pic, website, member since, public repos, followers, following
 *    Also displays latest repos link to repo and other major stats.
 *    Uses OAuth for authorization and code uses ES6 classes and Fetch methods.
+
+## Project 5: WeatherSnapshot - 
+### Technologies: 
+        Javascript, HTML, Bootstrap, AJAX, OAuth, operweathermap.org, Arrow Function, ES6 Class, Fetch.
+### Functionality:
+*    Get current weather snapshot for a city and state in USA.
+*    Display weather icon, temperature, wind, humidity and feels like.
+*    USe can switch between imperial and metric units.
+*    Change city and state in modal window.
+*    Persist data to local storage.
+*    Fetch data from operweather.org api.
+
