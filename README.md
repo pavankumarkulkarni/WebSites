@@ -63,7 +63,7 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    Also displays latest repos link to repo and other major stats.
 *    Uses OAuth for authorization and code uses ES6 classes and Fetch methods.
 
-## Project 5: WeatherSnapshot - 
+## Project 6: WeatherSnapshot - 
 ### Technologies: 
         Javascript, HTML, Bootstrap, AJAX, OAuth, operweathermap.org, Arrow Function, ES6 Class, Fetch.
 ### Functionality:
