@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Weather</title>
+</head>
+
+<body class="bg-dark">
+  <div class="container rounded md-6 mx-auto bg-light mt-2 text-center p-4 rounded" id="w-container">
+      <h3 id="w-loc" class="card-title"></h3>
+      <!-- <br> -->
+      <div id="time" class="font-weight-light"></div>
+      <br>
+      <div id="desc" ></div>      
+      <img id = "w-icon" alt="" style="height: 50px;">
+      <ul class="list-group mt-2">
+        <li class="list-group-item" id="w-humidity"></li>
+        <li class="list-group-item" id="w-temperature"></li>
+        <li class="list-group-item" id="w-feelslike"></li>
+        <li class="list-group-item" id="w-wind"></li>
+      </ul>
+
+      <div class="form-check form-check-inline mt-2" id='w-unit'>
+        <input class="form-check-input" type="radio" name="exampleRadios"  value="option1" checked id="w-unit-imperial">
+        <label class="form-check-label" for="w-unit-imperial">
+          Imperial
+        </label>
+        <input class="form-check-input mx-2" type="radio" name="exampleRadios"  value="option2" id='w-unit-metric'>
+        <label class="form-check-label" for="w-unit-metric">
+          Metric
+        </label>        
+      </div>
+<br>
+      <button type="button" class="btn btn-primary btn-sm mt-4" data-target="#w-modal" data-toggle="modal">Change
+        Location</button>
+  </div>
+</body>
+<br><br>
+<footer class="text-center my-3 p-2 text-white" style="font-size:14px"  >WeatherSnapshot &copy;
+  Powered by OpenWeather @https://openweathermap.org/
+</footer>
+
+<!-- Modal -->
+<div class="modal" id="w-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Change Location</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <form class="w-form needs-validation" novalidate></form>
+        <div class="modal-body">
+          
+          <input type="text" id="w-city" class="form-control" placeholder="City" required>
+          <br>
+          <input type="text" id="w-state" class="form-control" placeholder="State code">
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-primary" id="w-save-changes">Save changes</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" id='w-close'>Close</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="storage.js"></script>
+<script src="weather.js"></script>
+<script src="ui.js"></script>
+<script src="app.js"></script>
+
+</html>
