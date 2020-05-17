@@ -74,3 +74,17 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 *    Persist data to local storage.
 *    Fetch data from operweather.org api.
 
+## Project 7: Diary-CalorieTracker - 
+### Technologies: 
+        Javascript, HTML, MaterializedCSS, Arrow Function, ES6 Class, Modular classes, local storage
+### Functionality:
+*    Add meals/items and calories.
+*    Add to the diary
+*    Edit the Item
+*    Delete Item.
+*    Clear all Items.
+*    Persist is local storage.
+*    USe toasts to display error message if entries are not complete.
+*    Dynamic page refresh based on edit/new page.
+
+
