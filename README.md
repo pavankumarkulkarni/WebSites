@@ -76,7 +76,7 @@ HTML, CSS frameworks, JavaScripts and DB for website development
 
 ## Project 7: Diary-CalorieTracker - 
 ### Technologies: 
-        Javascript, HTML, MaterializedCSS, Arrow Function, ES6 Class, Modular classes, local storage
+        Javascript, HTML, MaterializedCSS, Arrow Function, ES6 Class, Modular classes, local storage, font awesome icons
 ### Functionality:
 *    Add meals/items and calories.
 *    Add to the diary
