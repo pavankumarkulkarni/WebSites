@@ -1,0 +1,87 @@
+@media (max-width:768px) {
+    /* Adjust navbar for mobiles */
+    .navbar {
+        display: block;
+        text-align: center;
+    }
+    .navbar .logo {
+        padding-bottom: 1rem;
+    }
+    .navbar ul {
+        justify-content: space-evenly;
+    }
+    #showcase .showcase-text {
+        /* overlay */
+        position: absolute;
+        top: 93px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    /* Space out what we do section */
+    #what .items {
+        display: flex;
+        flex-direction: column;
+        /* height: 400px; */
+    }
+    #what>.items>.item {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* text-align: left; */
+        /* padding: 0; */
+    }
+    #what>.items>.item>i,
+    #what>.items>.item>p {
+        flex: 1 0 50%;
+        padding: 0;
+        margin: 0;
+    }
+    #what>.items>.item>i {
+        padding: 1rem;
+    }
+    #what>.items>.item>p {
+        padding-left: 2rem;
+    }
+    #what>.items>.item>h3 {
+        flex: 0 1 100%;
+    }
+    #what>.items>.item>i {
+        background-color: #93cb52;
+        padding: 2rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    #what>.items>.item>p {
+        /* background-color: #93cb52; */
+        padding: 0;
+    }
+    #what>h2 {
+        padding-top: 0;
+    }
+    #who {
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        margin-bottom: 2rem;
+    }
+    #who .who-img {
+        display: none;
+    }
+    #contact {
+        display: block;
+    }
+    #contact .map {
+        height: 200px;
+    }
+    .clients {
+        /* margin: auto; */
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .client-logos>.client:last-child {
+        display: none;
+    }
+}

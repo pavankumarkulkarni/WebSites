@@ -1,0 +1,25 @@
+@media (min-width:1400px) {
+    /* Space out what we do section */
+    #what>.items>.item {
+        display: flex;
+        text-align: left;
+        padding: 0;
+    }
+    #what>.items>.item>i {
+        background-color: #93cb52;
+        padding: 2rem;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    #what>.items>.item>p {
+        /* background-color: #93cb52; */
+        padding: 0;
+    }
+    #what>h2 {
+        padding-top: 0;
+    }
+    /* #contact .contact-form, */
+    #contact .map {
+        flex: 2;
+    }
+}
