@@ -1,0 +1,156 @@
+/* Reset and set global stying */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+p {
+    padding: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Variable definations */
+
+:root {
+    --landing-page_color: darkseagreen;
+    --page-1-bgcolor: darkturquoise;
+    --page-1-color: #fff;
+    --page-2-bgcolor: mistyrose;
+    --page-2-color: #111;
+    --last-page-bgcolor: lightsalmon;
+    --last-page-color: #fff;
+    --primary-btn-bgcolor: #fff;
+    --primary-btn-color: #111;
+    --primary-btn-bgcolor-hover: #333;
+    --primary-btn-color-hover: #fff;
+}
+
+
+/* Common element styling */
+
+.container {
+    margin: auto;
+    max-width: 960px;
+    position: relative;
+    top: 30vh;
+}
+
+.presentation {
+    display: block;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.page {
+    height: 100vh;
+}
+
+
+/* Utility Styling */
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    position: relative;
+    top: 5rem;
+}
+
+.btn-primary {
+    border: 1px solid var(--primary-btn-bgcolor);
+    background-color: var(--primary-btn-bgcolor);
+    color: var(--primary-btn-color);
+    transition: background-color 2s;
+}
+
+.btn-primary:hover {
+    border: 1px solid var(--primary-btn-bgcolor-hover);
+    background-color: var(--primary-btn-bgcolor-hover);
+    color: var(--primary-btn-color-hover);
+}
+
+.btn-secondary {
+    border: 1px solid var(--primary-btn-bgcolor-hover);
+    background-color: var(--primary-btn-bgcolor-hover);
+    color: var(--primary-btn-color-hover);
+    transition: background-color 2s;
+}
+
+.btn-secondary:hover {
+    border: 1px solid var(--primary-btn-bgcolor);
+    background-color: var(--primary-btn-bgcolor);
+    color: var(--primary-btn-color);
+}
+
+
+/* Page styling */
+
+.landing-page {
+    background-color: var(--landing-page_color);
+}
+
+
+/* Landing page header drop down animation */
+
+#p1_h1 {
+    position: relative;
+    animation-name: drop_down;
+    animation-duration: 1s;
+}
+
+@keyframes drop_down {
+    from {
+        top: -100vh;
+    }
+    to {
+        top: 0;
+    }
+}
+
+
+/* Landing page para slide in animation */
+
+#p1_p {
+    position: relative;
+    left: -100%;
+    animation-name: slide_in;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide_in {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+
+/* Subsequent page styling */
+
+.page-1 {
+    background-color: var(--page-1-bgcolor);
+    color: var(--page-1-color);
+}
+
+.page-2 {
+    background-color: var(--page-2-bgcolor);
+    color: var(--page-2-color);
+}
+
+.last-page {
+    background-color: var(--last-page-bgcolor);
+    color: var(--last-page-color);
+}
