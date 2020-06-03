@@ -1,0 +1,121 @@
+:root {
+    --primary-bgcolor: #db9833;
+    --secondary-bgcolor: #f6d8ac;
+    --font-color: #000;
+    --transition-speed: 0.5s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
+
+.icon {
+    font-size: 0.8rem;
+}
+
+#navbar {
+    background-color: var(--primary-bgcolor);
+    color: var(--font-color);
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%
+}
+
+#navbar ul {
+    list-style: none;
+    max-width: 960px;
+    margin: auto;
+}
+
+#navbar>ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: var(--font-color);
+    padding: 0;
+    font-size: 0.9rem;
+}
+
+#navbar>ul>li>a {
+    font-size: 1.2rem;
+}
+
+#navbar>ul>li>ul {
+    display: none;
+    line-height: 1.5rem;
+    position: relative;
+}
+
+#navbar>ul>li {
+    cursor: pointer;
+    padding: 1rem;
+    text-align: center;
+}
+
+#navbar>ul>li:hover {
+    background-color: var(--secondary-bgcolor);
+    transition: all ease-in-out var(--transition-speed);
+}
+
+#navbar>ul>li:hover ul {
+    display: block;
+    position: absolute;
+    top: 3rem;
+    line-height: 2rem;
+    background-color: var(--secondary-bgcolor);
+    width: 200px;
+    transition: all ease-in-out var(--transition-speed);
+}
+
+#navbar>ul>li:hover ul>li>a {
+    width: 200px;
+}
+
+#navbar>ul>li>ul>li {
+    padding: 0 1rem;
+}
+
+#navbar>ul>li>ul>li:hover {
+    background-color: var(--primary-bgcolor);
+}
+
+#navbar>ul>li>ul>li:hover a {
+    color: var(--font-color);
+}
+
+#navbar>ul>li>ul>li:hover a>span {
+    color: var(--primary-bgcolor);
+    background-color: var(--font-color);
+    padding: 0.2rem 0.4rem;
+    border-radius: 30%;
+}
+
+#navbar>ul>li>ul>li>a>span {
+    transition: all ease-in-out var(--transition-speed);
+}
+
+@media(max-width: 600px) {
+    #navbar>ul {
+        display: block;
+    }
+    #navbar>ul>li:hover ul {
+        display: block;
+        position: static;
+        /* position: absolute; */
+        /* top: 3rem; */
+    }
+}
