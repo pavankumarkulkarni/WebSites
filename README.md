@@ -1,6 +1,15 @@
 # WebSites
 HTML, CSS frameworks, JavaScripts and DB for website development
 
+## Project: meme-generator
+### Technologies:
+        Javascript, HTML, reactjs, css
+ 
+* resonnsive meme-generator single page website
+* Retrieves meme images from api.
+* user inputs meme text.
+* the website generates random meme by overlaying user onto random selection of meme images.
+
 ## Project 1: microposts - 
 ### Technologies: 
         Javascript, HTML, Bootstrap4, json-server, parcel, async, fetch, modules etc.
