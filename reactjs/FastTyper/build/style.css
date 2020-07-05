@@ -1,0 +1,48 @@
+:root {
+    --primary-color: #00b800;
+    --disabled-color: #ddd;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000;
+    text-align: center;
+}
+
+div {
+    margin: auto;
+    width: 600px;
+    color: var(--primary-color)
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+button {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+button[disabled] {
+    background-color: var(--disabled-color);
+}
+
+textarea {
+    background-color: var(--primary-color);
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    color: #000
+}
+
+textarea[disabled] {
+    background-color: var(--disabled-color)
+}
