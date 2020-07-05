@@ -1,0 +1,7 @@
+Built on react framework.
+Technologies : React, JSX, JS, HTML, CSS
+
+Click start button to start typing. Auto focuses on text area which remains disabled unless game is on. When game is on Start button remains disabled to avoid clicking start multiple times mid game.
+Once time runs out, it counts and dislays number of words typed in time. 
+
+Start button gets enabled and text area disables once game is over. Waiting for user to start a new cycle.
